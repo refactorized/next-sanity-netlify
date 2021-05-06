@@ -1,11 +1,8 @@
 {
-  "name": "next-sanity-netlify",
-  "version": "0.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:refactorized/next-sanity-netlify.git",
-  "author": "adam tolley <adamt@hzdg.com>",
-  "license": "UNLICENSED",
+  "name": "repo-name",
+  "version": "1.0.0",
   "private": true,
+  "license": "UNLICENSED",
   "workspaces": [
     "web",
     "sanity"
