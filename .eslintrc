@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "@hzdg",
+    "@hzdg/eslint-config-typescript",
+    "@hzdg/eslint-config-react"
+  ]
+}
