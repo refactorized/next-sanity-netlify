@@ -71,7 +71,21 @@ The export script will actually fail for now if run locally, because image
 processing relies on the nextjs server or someother setup. We will address this
 later
 
+## npm
+
+create `.npmrc` in web project:
+
+```ini
+always-auth=true
+registry=https://npm.pkg.github.com/
+//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
+```
+
+(should we not yarnrc.yaml or whatever it is?)
+
 ## netlify web setup
+
+[ ] setup env `GITHUB_TOKEN` in environment varibles section of netlify site
 
 1. commit to repo
 2. in netlify click _New site from Git_ button
